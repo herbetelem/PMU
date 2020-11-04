@@ -1,0 +1,114 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("asset/background.jpg");
+    background-size: cover;
+}
+
+.runner {
+    height: 70vh;
+    position: relative;
+}
+
+.runner .horse {
+    position: absolute;
+    left: 5%;
+    width: 15vh;
+    transition: 1s;
+}
+
+.runner .horse img {
+    height: 100%;
+    width: 100%;
+}
+
+.pique {
+    top: 2%;
+}
+
+.coeur {
+    top: 28%;
+}
+
+.trefle {
+    top: 53%;
+}
+
+.carreau {
+    top: 78%;
+}
+
+.cards {
+    height: 30vh;
+    position: relative;
+    display: inline-flex;
+    transition: 1s;
+}
+
+.card {
+    transition: 1s;
+}
+
+.cards .paquet {
+    width: 20%;
+}
+
+.cards .paquet img {
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+
+.cards .cards_trap {
+    width: 80%;
+    height: 15vh;
+}
+
+.cards .cards_trap .card {
+    width: 12%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 1vh;
+}
+
+.cards .cards_trap .card img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*
+.cards {
+    position: relative;
+    display: inline-flex;
+    margin-top: 125px;
+    margin-left: 300px;
+}
+
+.cards .card {
+    width: 170px;
+    height: 102px;
+    background: url("asset/dos.png");
+    background-size: contain;
+    margin-left: 50px;
+}
+
+.paquet {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+    margin-left: 70px;
+}
+
+.paquet img {
+    width: 100%;
+    height: 100%;
+} */
