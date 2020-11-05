@@ -47,7 +47,6 @@
 .cards {
     height: 30vh;
     position: relative;
-    display: inline-flex;
     transition: 1s;
 }
 
@@ -57,6 +56,7 @@
 
 .cards .paquet {
     width: 20%;
+    float: left;
 }
 
 .cards .paquet img {
@@ -69,10 +69,11 @@
 .cards .cards_trap {
     width: 80%;
     height: 15vh;
+    float: left;
 }
 
 .cards .cards_trap .card {
-    width: 12%;
+    width: 12.5%;
     float: left;
     margin-right: 20px;
     margin-top: 1vh;
@@ -81,4 +82,26 @@
 .cards .cards_trap .card img {
     width: 100%;
     height: auto;
+}
+
+.cards .tab_result {
+    position: absolute;
+    width: 80%;
+    height: 15vh;
+    bottom: 0;
+    left: 20%;
+}
+
+.cards .tab_result .liste_carte {
+    background: ivory;
+    width: 35%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card_showed {
+    width: 5%;
+    margin: 5px;
+    float: left;
 }
