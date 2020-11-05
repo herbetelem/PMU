@@ -24,8 +24,8 @@ $(document).ready(function () {
     };
 
     // fonction pour faire reculer les cavalier
-    function moove_back_horse(symbol){
-        switch(symbol) {
+    function moove_back_horse(carte){
+        switch(carte) {
             case "♡":
                 coeur_status--;
                 $(".coeur").css( "left", position[coeur_status] + "%");
